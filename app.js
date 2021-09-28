@@ -1,9 +1,8 @@
-var a=2
-var b=3
-console.log('a=',a,' b=',b)
-console.log('a+b=',a+b)
-console.log('b-a=',b-a)
-console.log('a*b=',a*b)
-console.log('a**b=',a**b)//power
-console.log('b/a=',b/a)
-console.log('b%a=',b%a)
+b=11
+console.log('b= ',b)
+b+=10
+console.log('b+=10 ',b)
+b++
+console.log('b++ ',b)
+b-=10
+console.log('b-=10 ',b)
