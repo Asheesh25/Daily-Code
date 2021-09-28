@@ -1,5 +1,9 @@
-console.log(typeof false)
-console.log(typeof 1)
-console.log(typeof 11111111111111111111111)
-console.log(typeof 1.11)
-console.log(typeof -1.7)
+var a=2
+var b=3
+console.log('a=',a,' b=',b)
+console.log('a+b=',a+b)
+console.log('b-a=',b-a)
+console.log('a*b=',a*b)
+console.log('a**b=',a**b)//power
+console.log('b/a=',b/a)
+console.log('b%a=',b%a)
