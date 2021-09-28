@@ -1,0 +1,5 @@
+console.log(typeof false)
+console.log(typeof 1)
+console.log(typeof 11111111111111111111111)
+console.log(typeof 1.11)
+console.log(typeof -1.7)
