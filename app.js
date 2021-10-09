@@ -1,17 +1,10 @@
-//Console object
+//variable
 
-console.log("Hello World")
-console.warn("This is warning")
-console.error("This is error")
+var a = 19
+console.log(typeof a)
 
-//String
-console.log(typeof "Asheesh")
-console.log(typeof 'a')
+// var age// Declaration
+// age=null// Assignment 
+// console.log(typeof age)  
 
-//Numbers
-console.log(typeof 11)
-console.log(typeof -1.11)
-
-//Boolean
-console.log(typeof true)
-console.log(false)
+// console.log(Ashu)
