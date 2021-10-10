@@ -1,10 +1,7 @@
-//variable
-
-var a = 19
-console.log(typeof a)
-
-// var age// Declaration
-// age=null// Assignment 
-// console.log(typeof age)  
-
-// console.log(Ashu)
+var arr = [1,2,3,'Ashu']
+console.log(typeof arr)
+console.log(arr.length)
+arr.push(69)
+console.log(arr)
+arr.pop(1)
+console.log(arr)
