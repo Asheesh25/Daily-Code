@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript</title>
-    <script src="./app.js"></script>
+   <!--If we don't write defer her, it will show null in console. It's becoz we are accessing heading without creating the tree. So , the object of "heading isn't created and we're tryin to access it" -->
 </head>
 <body>
+        
+        <h2 id="heading">I am a heading</h2>
+        <script src="./app.js"></script> 
+        <p class="para">I am a paragraph</p>
 </body>
 </html>
