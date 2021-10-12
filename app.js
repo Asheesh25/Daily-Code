@@ -1,6 +1,10 @@
 var heading = document.getElementById('heading') 
-var para = document.getElementById('para')
-var tags = document.getElementsByTagName('a') 
-var query = document.querySelector('.para') 
+var body = document.querySelector('body') 
+console.log(heading)
+heading.innerHTML="I am inevitable"
+heading.style = "color:red;font-size:2rem"
 
-console.log(query)
+heading.classList.add('five')
+heading.classList.remove('one')
+body.classList.add('dark')
+body.classList.remove('dark')

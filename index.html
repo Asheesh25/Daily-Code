@@ -3,14 +3,19 @@
 <head>
     <title>JavaScript</title>
    <script defer src="./app.js"></script> 
-    <!--If we don't write defer her, it will show null in console. It's becoz we are accessing heading without creating the tree. So , the object of "heading isn't created and we're tryin to access it" -->
+    <style>
+        /* .animate is a class */
+        .animate{
+            transform: translateX(100px);
+        }
+        .dark{
+            background-color: black;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <!-- <script>
-        console.log("LOLOLOLO")
-    </script>
-    The output of this script will appear in console before the defer script. It's cuz defer makes the code run at absolute end-->
-        <h2 id="heading">I am a heading</h2>
+        <h2 class="one two three four" id="heading">I am a heading</h2>
         <a class="para">I am an anchor</a>
         <p class="para">I am a paragraph</p>
 </body>
