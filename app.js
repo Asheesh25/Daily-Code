@@ -1,6 +1,10 @@
-
-//Output when we add a number and undefined in NaN(Not a number)
-function add(a,b){
-  console.log(a+b)
+//Function expression is converting a function to an expression
+hello('Minakshi')
+greet('Asheesh')
+var greet = function(name){
+  console.log('Hi '+name)
 }
-add(10)
+function hello(name)
+{
+  console.log('Hi '+name)
+}
