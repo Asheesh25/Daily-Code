@@ -1,3 +1,7 @@
-var greet = (name)=> console.log("Arrow")
+var myArr = ['The','Kapil','Sharma','Show']
 
-greet("Ashu")
+var func = (element)=>{
+  console.log(element)
+}
+
+myArr.forEach(func)
