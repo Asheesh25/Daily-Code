@@ -1,7 +1,10 @@
-var myArr = ['The','Kapil','Sharma','Show']
+var button = document.querySelector('button')
+var input = document.querySelector('input')
+var list = document.querySelector('ul') 
 
-var func = (element)=>{
-  console.log(element)
+const callback = ()=>{
+  console.log('Ashu')
+  console.log('Minu')
 }
-
-myArr.forEach(func)
+//On clicking the button, the callback function is executed
+button.addEventListener('click',callback)
