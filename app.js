@@ -1,6 +1,6 @@
-//default value('Minu')
-function greet(name='Minu')
-{
-  console.log("I am "+name)
+
+//Output when we add a number and undefined in NaN(Not a number)
+function add(a,b){
+  console.log(a+b)
 }
-greet()
+add(10)
