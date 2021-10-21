@@ -12,16 +12,21 @@
       box-sizing: border-box;
     }
     .parent{
-      background-color: green;
+      background-color: black;
       height: 600px;
       position: relative;
       display: flex;
       flex-direction: row;
+      /* It won't let the elements shrink */
+      flex-wrap: wrap;
       /* The justiy content aligns the element w.r.t flex-dir(primary axis). It aligns at the center of colums or row depending upon flec-dir. */
-      justify-content: center;
+      justify-content:space-evenly;
+      /* Works in secondary axis. Stretch will extend the child items*/
+      align-items: stretch;
     }
     .child{
       width: 100px;
+      /* align-items:streich works with min-height and not height.*/
       height:100px;
       background-color: orange;
       margin: 10px;
@@ -32,7 +37,7 @@
   <div class="parent">
       <div class="child" style="background-color: red;"></div>  
       <div class="child" style="background-color: blue;"></div>  
-      <div class="child" style="background-color: saddlebrown;"></div>  
+      <div class="child" style="background-color: saddlebrown;"></div>     
   </div>
 </body>
 </html>
