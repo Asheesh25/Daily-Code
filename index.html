@@ -10,19 +10,31 @@
       margin: 4px;
       padding: 0;
       box-sizing: border-box;
+      font-family:cursive;
     }
-    /* It selects all the div in the current divs*/
-    div.parent div:nth-child(6){
+    h2:hover{
+        padding: 5px;
+        color: white;
+        background-color:red;
+        border:black;
+        border-style: groove;
+        cursor: pointer;
+    }
+    h2::after{
+      content: "I am after";
+    }
+    div::selection{
       background-color: green;
+    }
+    input:focus{
+      background-color: orange;
+      color: red;
     }
   </style>
 </head> 
 <body>
-  <div class="parent">
-       <div>I am the first div</div>
-       <div>I am the second div</div>
-       <div>I am the third div</div>
-       <div>I am the fourth div</div>
-  </div>
+  <h2>I am a heading</h2>
+  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam asperiores, sed, corrupti itaque non tempore eum, amet fuga quae perferendis nesciunt assumenda odio a explicabo nam earum repudiandae illum. Aliquam?</div>
+  <input type="text">
 </body>
 </html>
