@@ -7,35 +7,22 @@
   <title>CSS-5</title>
   <style>
     *{
+      margin: 4px;
       padding: 0;
-      margin: 10px;
       box-sizing: border-box;
     }
-    .background{
-      color: white;
-    }
-    h1.background{
-      background-color: red;
-    }
-    h2.background{
+    /* It selects all the div in the current divs*/
+    div.parent div:nth-child(6){
       background-color: green;
-    }
-    h2.background#unique{
-      background-color:darkgoldenrod;
-    }
-    h3.background{
-      background-color: purple;
-    }
-    span.background{
-      background-color:darkblue;
     }
   </style>
 </head> 
 <body>
-  <h1 class="background">Heading one</h1>
-  <h2 class="background">Heading two</h2>
-  <h2 class="background" id="unique">Second heading two</h2>
-  <h3 class="background">Heading three</h3>
-  <span class="background">Asheesh Upadhyay</span>
+  <div class="parent">
+       <div>I am the first div</div>
+       <div>I am the second div</div>
+       <div>I am the third div</div>
+       <div>I am the fourth div</div>
+  </div>
 </body>
 </html>
