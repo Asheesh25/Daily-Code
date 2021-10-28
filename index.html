@@ -12,29 +12,27 @@
       box-sizing: border-box;
       font-family:cursive;
     }
-    h2:hover{
-        padding: 5px;
-        color: white;
-        background-color:red;
-        border:black;
-        border-style: groove;
-        cursor: pointer;
+    div.parent{
+      background-color:black;
+      height: 200px;
     }
-    h2::after{
-      content: "I am after";
+    div.parent:hover div.child{
+      background-color: red;
+      transform: translateX(300px)
     }
-    div::selection{
-      background-color: green;
-    }
-    input:focus{
-      background-color: orange;
-      color: red;
+    div.child{
+      background-color: yellow;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      transition-duration: 0.5s;
+      transition-timing-function: ease-out;
     }
   </style>
 </head> 
 <body>
-  <h2>I am a heading</h2>
-  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam asperiores, sed, corrupti itaque non tempore eum, amet fuga quae perferendis nesciunt assumenda odio a explicabo nam earum repudiandae illum. Aliquam?</div>
-  <input type="text">
+  <div class="parent">
+    <div class="child"></div>
+  </div>
 </body>
 </html>
